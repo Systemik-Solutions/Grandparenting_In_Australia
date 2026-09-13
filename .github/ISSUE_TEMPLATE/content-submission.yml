@@ -4,9 +4,9 @@ title: "[Content]: "
 labels: ["content"]
 body:
   - type: input
-    id: page-title
+    id: content-id
     attributes:
-      label: Page/Post Title
+      label: Describe content addition/change
     validations:
       required: true
   - type: textarea
