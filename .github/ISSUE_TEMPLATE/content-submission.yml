@@ -1,6 +1,6 @@
 name: New Website Content
 description: Submit new content for the website
-title: "[Content]: "
+title: "[What Page?]: "
 labels: ["content"]
 body:
   - type: input
