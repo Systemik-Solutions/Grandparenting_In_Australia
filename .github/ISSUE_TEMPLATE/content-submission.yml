@@ -1,0 +1,26 @@
+name: New Website Content
+description: Submit new content for the website
+title: "[Content]: "
+labels: ["content"]
+body:
+  - type: input
+    id: page-title
+    attributes:
+      label: Page/Post Title
+    validations:
+      required: true
+  - type: textarea
+    id: content-body
+    attributes:
+      label: Content
+      description: "Paste your text here. To add images, drag and drop them directly into this box."
+    validations:
+      required: true
+  - type: input
+    id: reference-links
+    attributes:
+      label: Links
+      description: Paste any relevant links (sources, examples, pages to link to)
+      placeholder: "https://example.com"
+    validations:
+      required: false
